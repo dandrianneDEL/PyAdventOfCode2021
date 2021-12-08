@@ -6,7 +6,7 @@ for fishy in fishline.split(","):
     fish.append(int(fishy))
 
 class School:
-    fish: []
+    fish = []
     def __init__(self, fish):
         self.fish = []
         for fishy in fish:
